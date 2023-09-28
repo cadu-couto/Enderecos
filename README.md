@@ -18,12 +18,19 @@ Você pode executar o projeto em um contêiner Docker. Certifique-se de ter o Do
 Clone o repositório para o seu computador :
 
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
 Navegue até o diretório do projeto:
+
 cd nome-do-repositorio
+
 Construa a imagem Docker :
+
 docker build -t nome_da_imagem .
+
 Execute o contêiner Docker:
+
 docker run -p 8080:5000 nome_da_imagem
+
 O aplicativo estará acessível no seu navegador em http://localhost:8080.
 
 
